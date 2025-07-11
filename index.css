@@ -1,1 +1,29 @@
-html
+:root {
+    --primary-color: #4E47FF;
+    --secondary-color: #E5E7FF;
+    --background-color: #f5f8ff;
+    --text-primary: #000000;
+    --text-subtitle: #757575;
+    --subtext-color: #9E9E9E;
+    
+    --font-family: 'Arial', sans-serif';
+    --font-size: 16px;
+    --font-3xl: 32px;
+    --font-2xl: 24px;
+    --font-xl: 18px;
+    --font-lg: 20px;
+    --font-sm: 14px;
+    --font-xs: 12px;
+
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    background-color: var(--background-color);
+    color: var(--text-primary);
+}
+
